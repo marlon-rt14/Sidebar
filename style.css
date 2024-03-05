@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', 'Madimi One', sans-serif;
+  font-weight: 600;
+  color: #03608f;
+}
+
+body {
+  background-image: url('https://a-static.besthdwallpaper.com/chinese-dragon-above-sky-wallpaper-1920x1080-96190_48.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+aside {
+  width: 20rem;
+  max-width: 25rem;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.container-toggle {
+  padding: 2rem 2rem 1rem 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.container-toggle i {
+  color: white;
+  font-size: 2rem;
+  transition: scale 0.3s ease;
+}
+
+.container-toggle i:hover {
+  cursor: pointer;
+  scale: 1.2;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+  padding-right: 1.5rem;
+}
+
+li {
+  list-style: none;
+  border-radius: 13px;
+  padding: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  transition: background-color, transform 0.3s ease;
+}
+
+li:hover {
+  background-color: #30303055;
+  background-color: #ffffff97;
+  cursor: pointer;
+  transform: translateX(8px);
+}
+
+li:hover > * {
+  color: #017ab6;
+  font-weight: 600;
+}
